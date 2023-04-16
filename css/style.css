@@ -221,3 +221,18 @@ body {
 		text-align: end;
 	}
 }
+
+/* DARK MODE OS */
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: var(--color-dark);
+		filter: invert(100%);
+	}
+	.card img {
+		filter: invert(100%);
+	}
+	.modal-dialog-centered {
+		min-height: auto;
+	}
+}
